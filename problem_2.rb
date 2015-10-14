@@ -6,7 +6,7 @@ while b <= 4_000_000
   c = a + b
   a = b
   b = c
-  sum += a if a % 2 == 0
+  sum += a if a.even?
 end
 
 p sum
